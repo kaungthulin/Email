@@ -15,8 +15,6 @@ import javafx.collections.ObservableList;
 
 public class ModelAccess {
 	
-	private String something;
-	
 	Map<String, EmailAccountBean> emailAccounts = new HashMap<String, EmailAccountBean>();
 	ObservableList<String> emailAccountsNames = FXCollections.observableArrayList();
 	
